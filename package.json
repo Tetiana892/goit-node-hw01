@@ -1,0 +1,38 @@
+{
+  "name": "goit-node-hw01",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tetiana892/goit-node-hw01.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Tetiana",
+  "license": "ISC",
+  "engines": {
+    "node": "18.16.01",
+    "npm": "9.5.1"
+  },
+  "private": "true",
+  "bugs": {
+    "url": "https://github.com/Tetiana892/goit-node-hw01/issues"
+  },
+  "homepage": "https://github.com/Tetiana892/goit-node-hw01#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
